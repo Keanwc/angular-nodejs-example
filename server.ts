@@ -1,7 +1,7 @@
 const express = require('express');
-const app = express(),
-      bodyParser = require("body-parser");
-      port = 3080;
+const app = express();
+var bodyParser = require("body-parser");
+const port = 3080;
 
 const users = [];
 
